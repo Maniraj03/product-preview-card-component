@@ -1,0 +1,104 @@
+.root{
+  --dark-cyan:hsl(158,36%,37%);
+  --cream:hsl(30,38%,92%);
+  --very-dark-blue:hsl(212,21%,14%);
+  --dark-grayish-blue:hsl(228,12%,48%);
+  --white:hsl(0,0%,100%);
+}
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  min-height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background:hsl(30,38%,92%);
+  
+  
+}
+.container{
+  display:flex;
+  justify-content: space-between;
+  
+  width: 500px;
+}
+.banner{
+  width: 55%;
+}
+.product_banner{
+  width:100%;
+  height:100%;
+  border-radius:1rem 0 0 1rem;
+}
+.product_details{
+  width:45%;
+  background: white;
+  border-radius:0 1rem 1rem 0;
+  padding:1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap:1rem;
+ 
+  
+
+}
+.product_details .title{
+  font-family: montserat;
+  color:hsl(228,12%,48%);
+  font-size: .9rem;
+  letter-spacing: .3rem;
+  font-weight: 500;
+  
+}
+.product_details .product_name{
+  font-family:Fraunces;
+  font-weight:700;
+
+ 
+}
+.product_details .product_description{
+  font-family:montserat;
+  font-size:14px;
+  color: hsl(228,12%,48%);
+  font-weight:400;
+  
+}
+.product_details .price{
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  
+}
+
+.product_details .price .offer_price{
+  
+  font-size:2rem;
+  color:hsl(158,36%,37%);
+  font-family:Fraunces;
+  font-weight:700;
+  
+}
+.product_details .price .actual_price{
+  font-size:.5rem;
+  padding-left:25px;
+  color:hsl(228,12%,48%);
+  font-weight:700;
+  text-decoration: line-through;
+}
+.product_details .btn{
+  padding:10px;
+  background-color: hsl(158,36%,37%);
+  color:white;
+  border-radius:5px;
+  border:none;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  font-weight:700;
+}
+.product_details .btn .cart{
+  padding-left: 10px;
+}
