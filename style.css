@@ -31,7 +31,7 @@ body{
 }
 .product_details{
   width:45%;
-  background:hsl(30, 38%, 92%)
+  background:white;
   border-radius:0 10px 10px 0;
   padding:1.5rem 2rem;
   display: flex;
