@@ -15,10 +15,10 @@ body{
 .container{
   display:flex;
   justify-content: space-between;
-  width: 500px;
+  width:500px;
 }
 .banner{
-  width: 55%;
+  width:55%;
 }
 .product_banner1{
   width:100%;
@@ -40,7 +40,7 @@ body{
   gap:1rem;
 }
 .product_details .title{
-  font-family: montserat;
+  font-family: montserrat;
   color:hsl(228,12%,48%);
   font-size: .9rem;
   letter-spacing: .3rem;
@@ -85,9 +85,13 @@ body{
   justify-content:center;
   align-items: center;
   font-weight:700;
+  pointer:cursor;
 }
 .product_details .btn .cart{
   padding-left: 10px;
+}
+.btn:hover{
+  background-color: hsl(158, 52%, 13%)  ;
 }
 
 @media screen and (max-width:600px){
