@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]([https://maniraj03.github.io/product-preview-card-component/])
-- Live Site URL: [Live site]([https://github.com/Maniraj03/product-preview-card-component/])
+- Solution URL: [Solution](https://maniraj03.github.io/product-preview-card-component/)
+- Live Site URL: [Live site](https://github.com/Maniraj03/product-preview-card-component/)
 
 ## My process
 
